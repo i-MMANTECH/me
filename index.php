@@ -233,7 +233,7 @@
             <h2>Contact <span>Me</span></h2>
         </div>
         <div class="contact-form" data-aos="zoom-in">
-            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
+            <form action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]); ?>" method="POST">
                 <input type="text" name="name" id="name" placeholder="Your name" value="<?php
                                                                                         if (isset($name)) echo $name; ?>" required>
                 <input type="email" name="email" id="email" placeholder="Email address..." value="<?php
@@ -272,25 +272,25 @@
     }
     ?>
 
-    <div class="footer">
-        <div class="copyright">
-            <p>2024 Emmanuel Aro, All Rights Reserved.</p>
+        <div class="footer">
+            <div class="copyright">
+                <p>2024 Emmanuel Aro, All Rights Reserved.</p>
+            </div>
+            <a href="#1" class="scroll-top">
+                <i class="ri-arrow-up-s-fill"></i>
+            </a>
         </div>
-        <a href="#1" class="scroll-top">
-            <i class="ri-arrow-up-s-fill"></i>
-        </a>
-    </div>
 
-    <script src="JS/index.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="JS/index.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 
-    <script>
-        AOS.init({
-            offset: 300,
-            duration: 1400,
-        });
-    </script>
+        <script>
+            AOS.init({
+                offset: 300,
+                duration: 1400,
+            });
+        </script>
 
 
 
